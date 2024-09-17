@@ -1,6 +1,5 @@
 import random
 class NumberGuess:
-    
     def __init__(self):
         self.number = random.randint(1, 100)
         self.guess = -1
@@ -18,3 +17,5 @@ class NumberGuess:
                 
 game = NumberGuess()
 game.play()
+
+# added a comment 
